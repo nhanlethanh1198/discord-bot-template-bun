@@ -9,6 +9,7 @@ import start from './start';
 
 const commands = [ping, start];
 
+// Register commands with Discord API (Automatically overwrites existing commands)
 const registerCommands = async () => {
   const rest = new REST().setToken(DISCORD_BOT_TOKEN!);
   try {
@@ -28,6 +29,7 @@ const registerCommands = async () => {
   }
 };
 
+// Set up command list in the client
 export default function setCommandList(client: Client) {
   for (const command of commands) {
     client.commands.set(command.data.name, command);
