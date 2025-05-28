@@ -5,7 +5,7 @@
     "version": "1.0.0",
     "description": "A template for building Discord bots using TypeScript and Bun.",
     "license": "MIT",
-    "author": "Your Name <nhanlethanh1198@gmail.com>",
+    "author": "@nhanlethanh1198@gmail.com",
     "keywords": [
         "discord",
         "bot",
