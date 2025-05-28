@@ -1,0 +1,38 @@
+{
+    "name": "discord-bot-template",
+    "module": "src/server.ts",
+    "type": "module",
+    "version": "1.0.0",
+    "description": "A template for building Discord bots using TypeScript and Bun.",
+    "license": "MIT",
+    "author": "Your Name <nhanlethanh1198@gmail.com>",
+    "keywords": [
+        "discord",
+        "bot",
+        "typescript",
+        "bun",
+        "template"
+    ],
+    "scripts": {
+        "dev": "bun --watch src/bot.ts",
+        "start": "bun run src/bot.ts",
+    },
+    "devDependencies": {
+        "@types/bun": "latest",
+    },
+    "peerDependencies": {
+        "typescript": "^5.0.0"
+    },
+    "dependencies": {
+        "@discordjs/collection": "^2.1.1",
+        "@logtail/pino": "^0.5.2",
+        "bufferutil": "^4.0.9",
+        "discord.js": "^14.18.0",
+        "pino": "^9.6.0",
+        "pino-pretty": "^13.0.0",
+        "prisma": "^6.8.2",
+        "ulid": "^3.0.0",
+        "winston": "^3.17.0",
+        "zod": "^3.24.2"
+    }
+}
