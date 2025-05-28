@@ -15,10 +15,10 @@
     ],
     "scripts": {
         "dev": "bun --watch src/bot.ts",
-        "start": "bun run src/bot.ts",
+        "start": "bun run src/bot.ts"
     },
     "devDependencies": {
-        "@types/bun": "latest",
+        "@types/bun": "latest"
     },
     "peerDependencies": {
         "typescript": "^5.0.0"
